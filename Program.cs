@@ -37,6 +37,36 @@ namespace lists
             {
                 Console.WriteLine(planet);
             }
+            //empty list of probes
+            List<Dictionary<string, string>> probes = new List<Dictionary<string, string>>();
+
+            //create probe
+            Dictionary<string, string> viking = new Dictionary<string, string>(){
+                {"Mars", "viking"}
+            };
+            //create probe
+            Dictionary<string, string> opportunity = new Dictionary<string, string>(){
+                {"Mars", "Opportunity"}
+            };
+            //create probe
+            Dictionary<string, string> mariner = new Dictionary<string, string>(){
+                {"Mercury", "Mariner 10"}
+            };
+
+            //add above probes to the list
+            probes.Add(viking);
+            probes.Add(opportunity);
+            probes.Add(mariner);
+
+            //itterate over the planets
+            foreach (string planet in planetList)
+            {
+
+
+
+            }
+
+
         }
     }
 }
